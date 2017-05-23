@@ -1,7 +1,75 @@
-#container {
-    width: 100%;
+$bleu: #78eae2;
+$bg: #222;
+$font: 20px/1.5 Arial, Helvetica, sans-serif;
+
+// GLOBAL --
+body{
+  font: $font;
+  background-color: $bg;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-#navbar {
-    background-color: #ffffff;
+h3{
+  text-align: center;
+  font-size: 30px;
 }
+
+a:hover{
+  color: $bleu;
+  font-weight: bold;
+}
+//
+header{
+  min-height: 40px;
+  border-bottom: $bleu 1px solid;
+  font-size: 20px;
+  ul {
+    list-style: none;
+    float: right;
+    li {
+      padding-right: 30px;
+      margin-top: 10px;
+      a {
+        text-decoration: none;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+#photo{
+  float: left;
+  margin-left: 5%;
+  p,h2 {
+    margin: 0;
+  }
+}
+
+
+#container{
+  min-height: 400px;
+  width: 100%;
+  #Objectif{
+    text-align: center;
+    margin-right: 5%;
+  }
+}
+
+
+#skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+
