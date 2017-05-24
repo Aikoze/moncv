@@ -14,6 +14,9 @@ h3 {
   text-align: center;
   font-size: 30px; }
 
+b {
+  color: #78eae2; }
+
 a:hover {
   color: #78eae2;
   font-weight: bold; }
@@ -48,8 +51,101 @@ header {
     margin-right: 5%; }
 
 #skills {
-  display: flex;
-  flex-direction: row;
-  justify-content: center; }
+  -moz-column-count: 3;
+  -moz-columns: 3;
+  -webkit-columns: 3;
+  columns: 3;
+  min-height: 400px; }
+  #skills ul {
+    margin-left: 5%; }
+
+#skills .myProgress {
+  width: 90%;
+  background-color: grey;
+  border-radius: 10px; }
+#skills .myBar_android {
+  width: 40%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_css {
+  width: 60%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_html {
+  width: 80%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_java {
+  width: 40%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_php {
+  width: 60%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_wordpress {
+  width: 60%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_presta {
+  width: 50%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_git {
+  width: 60%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_humeur {
+  width: 100%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_volonte {
+  width: 100%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_englais {
+  width: 70%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
+#skills .myBar_sass {
+  width: 40%;
+  height: 30px;
+  background-color: #78eae2;
+  border-radius: 10px;
+  text-align: right;
+  color: #262626; }
 
 /*# sourceMappingURL=style.css.map */
