@@ -1,4 +1,4 @@
-$bleu: #78eae2;
+$bleu: #4cc6ea;
 $bg: #222;
 $font: 20px/1.5 Arial, Helvetica, sans-serif;
 
@@ -23,14 +23,26 @@ h3{
 b{
   color: $bleu;
 }
+
 a:hover{
   color: $bleu;
   font-weight: bold;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+img{
+  float: left;
+}
 //
 header{
   min-height: 40px;
-  border-bottom: $bleu 1px solid;
+  border-bottom: $bleu 3px solid;
   font-size: 20px;
   ul {
     list-style: none;
@@ -38,12 +50,6 @@ header{
     li {
       padding-right: 30px;
       margin-top: 10px;
-      a {
-        text-decoration: none;
-        color: white;
-        text-transform: uppercase;
-        font-weight: bold;
-      }
     }
   }
 }
@@ -56,9 +62,14 @@ header{
   }
 }
 
+.CV{
+  border: 2px solid $bleu;
+  border-radius: 2px;
+  padding: 4px;
+}
 
 #container{
-  min-height: 400px;
+  min-height: 350px;
   width: 100%;
   #Objectif{
     text-align: center;
@@ -68,11 +79,12 @@ header{
 
 
 #skills {
+  margin: auto;
   -moz-column-count: 3;
   -moz-columns: 3;
   -webkit-columns: 3;
   columns: 3;
-  min-height: 400px;
+  min-height: 300px;
   ul{
     margin-left: 5%;
   }
@@ -88,7 +100,7 @@ header{
   }
   .myBar_android {
     width: 40%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -96,7 +108,7 @@ header{
   }
   .myBar_css {
     width: 60%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -105,7 +117,7 @@ header{
   }
   .myBar_html {
     width: 80%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -114,7 +126,7 @@ header{
   }
   .myBar_java {
     width: 40%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -123,7 +135,7 @@ header{
   }
   .myBar_php{
     width: 60%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -132,7 +144,7 @@ header{
   }
   .myBar_wordpress {
     width: 60%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -140,7 +152,7 @@ header{
   }
   .myBar_presta {
     width: 50%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -148,7 +160,7 @@ header{
   }
   .myBar_git{
     width: 60%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -156,7 +168,7 @@ header{
   }
   .myBar_humeur {
     width: 100%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -165,7 +177,7 @@ header{
   }
   .myBar_volonte {
     width: 100%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -174,7 +186,7 @@ header{
 
   .myBar_englais {
     width: 70%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
     text-align: right;
@@ -184,10 +196,17 @@ header{
 
   .myBar_sass {
     width: 40%;
-    height: 30px;
+    height: 25px;
     background-color: $bleu;
     border-radius: 10px;
+
     text-align: right;
     color: #262626
   }
 }
+
+table{
+  margin: auto;
+    border-collapse: separate;
+    border-spacing: 50px;
+  }
