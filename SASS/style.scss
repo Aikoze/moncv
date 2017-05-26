@@ -130,8 +130,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
   }
@@ -140,8 +140,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
 
@@ -151,8 +151,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
 
@@ -162,8 +162,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
 
@@ -173,8 +173,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
 
@@ -184,8 +184,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
   }
@@ -194,8 +194,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626;
   }
@@ -204,8 +204,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626;
   }
@@ -214,8 +214,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0  $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
 
@@ -225,19 +225,19 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
   }
 
-  .myBar_englais {
+  .myBar_anglais {
     width: 70%;
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
 
@@ -248,8 +248,8 @@ footer{
     height: 30px;
     background-color: $bleu;
     border-radius: 10px;
-    -webkit-box-shadow: 5px 0 0px 0px $bleu;
-    box-shadow: 5px 0 0px 0px $bleu;
+    -webkit-box-shadow: 5px 0 $bleu;
+    box-shadow: 5px 0 $bleu;
     text-align: right;
     color: #262626
   }
@@ -267,7 +267,6 @@ table{
   margin:2% 25% 0 25% ;
 }
 .feedback-input {
-  color:white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
   font-size: 18px;

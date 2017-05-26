@@ -101,8 +101,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_css {
@@ -110,8 +110,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_html {
@@ -119,8 +119,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_java {
@@ -128,8 +128,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_php {
@@ -137,8 +137,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_wordpress {
@@ -146,8 +146,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_presta {
@@ -155,8 +155,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_git {
@@ -164,8 +164,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_humeur {
@@ -173,8 +173,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_volonte {
@@ -182,17 +182,17 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
-#skills .myBar_englais {
+#skills .myBar_anglais {
   width: 70%;
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 #skills .myBar_sass {
@@ -200,8 +200,8 @@ footer {
   height: 30px;
   background-color: #00d6ea;
   border-radius: 10px;
-  -webkit-box-shadow: 5px 0 0px 0px #00d6ea;
-  box-shadow: 5px 0 0px 0px #00d6ea;
+  -webkit-box-shadow: 5px 0 #00d6ea;
+  box-shadow: 5px 0 #00d6ea;
   text-align: right;
   color: #262626; }
 
@@ -215,7 +215,6 @@ table {
   margin: 2% 25% 0 25%; }
 
 .feedback-input {
-  color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
