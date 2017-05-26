@@ -1,7 +1,310 @@
-#container {
-    width: 100%;
+$bleu: #00d6ea;
+$bg: #222;
+$font: 20px/1.5 Arial, Helvetica, sans-serif;
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+
+// GLOBAL --
+html,body{
+  height: 100%;
+  margin: 0;
+}
+body{
+  font: $font;
+  background: url("abstract.jpeg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  padding: 0;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-#navbar {
-    background-color: #ffffff;
+h3{
+  text-align: center;
+  font-size: 30px;
 }
+b{
+  color: $bleu;
+}
+
+a:hover{
+  color: $bleu;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+img{
+  float: left;
+}
+//
+header{
+  min-height: 40px;
+  border-bottom: $bleu 3px solid;
+  font-size: 20px;
+  background: #262626;
+  opacity: 0.9;
+  ul {
+    list-style: none;
+    float: right;
+    li {
+      padding-right: 30px;
+      margin-top: 10px;
+    }
+  }
+}
+
+span{
+  font-weight: bold;
+}
+
+footer{
+  border-top: $bleu 3px solid;
+  background: #262626;
+  opacity: 0.9;
+  p{
+  text-align: center;
+  }
+}
+
+
+#photo{
+  float: left;
+  margin-left: 10%;
+  p,h2{
+    margin: 0;
+  }
+  p{
+    margin-bottom: 10px;
+  }
+}
+
+.CV{
+  border: 2px solid $bleu;
+  border-radius: 2px;
+  padding: 4px;
+  margin-top: 10%;
+}
+
+#container{
+  min-height: 350px;
+  width: 100%;
+  #Objectif{
+    width: 80%;
+    text-align: center;
+  }
+}
+
+
+#skills {
+  -moz-column-count: 3;
+  -moz-columns: 3;
+  -webkit-columns: 3;
+  columns: 3;
+  min-height: 310px;
+  margin-left: 2%;
+  font-family: 'Lato', sans-serif;
+}
+
+
+#skills {
+
+  .myProgress {
+    width: 90%;
+    background-color: grey;
+    border-radius: 10px;
+  }
+  .myBar_android {
+    width: 40%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+  }
+  .myBar_css {
+    width: 60%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+
+  }
+  .myBar_html {
+    width: 80%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+
+  }
+  .myBar_java {
+    width: 40%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+
+  }
+  .myBar_php{
+    width: 60%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+
+  }
+  .myBar_wordpress {
+    width: 60%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+  }
+  .myBar_presta {
+    width: 50%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626;
+  }
+  .myBar_git{
+    width: 60%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626;
+  }
+  .myBar_humeur {
+    width: 100%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+
+  }
+  .myBar_volonte {
+    width: 100%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+  }
+
+  .myBar_englais {
+    width: 70%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+
+  }
+
+  .myBar_sass {
+    width: 50%;
+    height: 30px;
+    background-color: $bleu;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 0 0px 0px $bleu;
+    box-shadow: 5px 0 0px 0px $bleu;
+    text-align: right;
+    color: #262626
+  }
+}
+
+table{
+  margin: auto;
+  border-collapse: separate;
+  border-spacing: 50px;
+
+  }
+
+#contact{
+  width:50%;
+  margin:2% 25% 0 25% ;
+}
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  color: #222;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: #ffffff;
+  border:2px solid #ffffff;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid $bleu; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:$bleu;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:$bleu; }
