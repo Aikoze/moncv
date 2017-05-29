@@ -1,4 +1,4 @@
-$bleu: #00d6ea;
+$bleu: #7ce6ff; //#00d6ea
 $bg: #222;
 $font: 20px/1.5 Arial, Helvetica, sans-serif;
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
@@ -11,7 +11,7 @@ html,body{
 }
 body{
   font: $font;
-  background: url("abstract.jpeg") no-repeat center fixed;
+  background: url("Network.jpg") no-repeat center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -257,11 +257,7 @@ footer{
 
 table{
   margin: auto;
-  border-collapse: separate;
-  border-spacing: 50px;
-
-  }
-
+}
 #contact{
   width:50%;
   margin:2% 25% 0 25% ;
